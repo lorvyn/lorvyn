@@ -11,7 +11,7 @@
 
 [Website](https://lorvyn.vercel.app) · [Releases](https://github.com/lorvyn/lorvyn/releases) · [Telegram: @LorvynNews](https://t.me/LorvynNews)
 
-`Windows` · `Beta 1.0.0-beta.1`
+`Windows` · `Linux` · `Beta 1.0.0-beta.1`
 
 </div>
 
@@ -40,8 +40,12 @@ Get the latest installer from the **[Releases](https://github.com/lorvyn/lorvyn/
 |---|---|
 | `Lorvyn-Setup-<version>-x64.exe` | Windows installer (recommended) |
 | `Lorvyn-<version>-win-x64.zip` | Portable build, no installation |
+| `Lorvyn-<version>-linux-x64.AppImage` | Linux x64 (AppImage): `chmod +x` and run |
+| `Lorvyn-<version>-linux-x64.tar.gz` | Linux x64 archive: unpack and run `./lorvyn-desktop` |
 
 > The installer is not code-signed yet, so Windows SmartScreen may show a warning. Choose **More info, Run anyway**.
+>
+> The Linux builds do not update themselves yet: download new versions from the Releases page. Verify downloads with `SHA256SUMS.txt` (`sha256sum -c SHA256SUMS.txt`).
 
 ### Updates
 
@@ -91,8 +95,12 @@ Lorvyn — лёгкое десктопное рабочее место для п
 |---|---|
 | `Lorvyn-Setup-<версия>-x64.exe` | Установщик для Windows (рекомендуется) |
 | `Lorvyn-<версия>-win-x64.zip` | Портативная версия, установка не нужна |
+| `Lorvyn-<версия>-linux-x64.AppImage` | Linux x64 (AppImage): `chmod +x` и запуск |
+| `Lorvyn-<версия>-linux-x64.tar.gz` | Архив для Linux x64: распакуйте и запустите `./lorvyn-desktop` |
 
 > Установщик пока не подписан сертификатом, поэтому Windows SmartScreen может показать предупреждение. Нажмите **Подробнее, Выполнить в любом случае**.
+>
+> Сборки для Linux пока не обновляются сами: новые версии скачивайте на странице Releases. Проверить файлы можно по `SHA256SUMS.txt` (`sha256sum -c SHA256SUMS.txt`).
 
 ### Обновления
 
